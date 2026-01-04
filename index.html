@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sandesh Parab Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 100px;
+  
+}
+
+#about-section .big {
+    left: 50%;
+    transform: translateX(-40%);
+    text-align: center;
+}
+
+#about-section::before {
+    content: "";
+    display: block;
+    height: 50px;      /* delay by 5px */
+    margin-top: -120px;
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.profile-img {
+  width: 80px;
+  height: 500px;
+  object-fit: cover;
+  margin-right: 100px;
+  margin-top: 60px;
+  border-radius: 10px; /* optional */
+}
+
+<!--Resume- Section-->
+
+  .big-2-container {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    height: 100vh;           /* full viewport height */
+    position: relative;
+    overflow: hidden;
+	
+  }
+
+  .big-2 {
+    font-size: 8rem;        /* adjust as needed */
+    color: rgba(0,0,0,0.05); /* light background effect */
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+/* PROJECT SECTION */
+#project-section {
+    margin-top: 150px;
+}
+
+.ftco-hireme {
+    position: block;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
+.project-heading span {
+    color: hsl(46, 100%, 50%); /* highlight color */
+}
+
+
+.btn-black-border {
+  border: 2px solid #000;
+}
+
+</style>
+</head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"
+          style="padding-top:10px; padding-bottom:10px; margin-top:15px;">
+             Portfolio Website</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <!--ml-auto: Pushes menu items to the right.-->
+			<ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+
+<!-- HOME -->
+	  <section id="home-section" class="hero">
+		<!--owl-carousel: Activates Owl Carousel (JS library for sliders)-->
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<!--Image Container-->
+				<div class="one-third js-fullheight order-md-last">
+                  <div class="overlay"></div>
+                     <img src="static/images/san2.jpg" alt="Sandesh Photo" class="profile-img">
+                        </div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<!--Text Content-->
+					<div class="text">
+		          		<span class="subheading" style="font-size:18px;">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Sandesh Parab</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+						<br>
+			            <h2>Software Developer</h2>
+						<br>
+			            <p><a href="https://github.com/sandeshparab03" class="btn btn-white btn-outline-white py-3 px-4" target="blank_">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+<!-- ABOUT -->
+   <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+                <div class="row justify-content-center pb-3">
+                    <div class="col-md-12 heading-section ftco-animate text-center">
+                        <h1 class="big">About</h1>
+                        <h2 class="mb-4">About Me</h2>
+                        
+                       <p class="text-justify">Aspiring Software Developer with a strong desire to enhance technical skills and contribute effectively to an organization.
+    Quick to learn and adaptable to any technology, with a proactive attitude toward continuous learning and growth.</p>
+                        
+                        <ul class="about-info mt-4 px-md-0 px-2 text-left d-inline-block">
+                            <li class="d-flex"><span>Profile:</span> <span>Software &amp; Web Development</span></li>
+                            <li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering (Information Technology) </span></li>
+                            <li class="d-flex"><span>Languages:</span> <span>English, Marathi, Hindi</span></li>
+                            <li class="d-flex"><span>Interest:</span> <span>Football, Music</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="counter-wrap ftco-animate d-flex mt-md-3 justify-content-center">
+                    <div class="text text-center">
+                        <p class="mb-4">
+							<!--JS animates 0 → 5-->
+                            <span class="number" data-number="5">0</span> <span>+</span>
+                            <span>&nbsp; Projects completed</span>
+                        </p>
+                        <p><a href="https://www.linkedin.com/in/sandesh-parab-a0a49a261/" class="btn btn-primary py-3 px-3" target="blank_">LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!---RESUME-->
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div style="margin-bottom: 300px;">
+    <div class="row justify-content-center pb-5">
+        <div class="col-md-10 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Resume</h1>
+			
+            <h2 style="margin-bottom: 1px;">Resume</h2>
+            <div class="row justify-content-center mt-2">
+                <div class="col-md-6 text-center ftco-animate">
+                    <p><a href="https://drive.google.com/file/d/1ed5RN08CfrEP3UAIOLoYLumiNeNx4yBO/view?usp=sharing" class="btn btn-primary py-4 px-5" target="_blank">Download CV</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Experience-->	
+        <div class="row justify-content-center spacing-after-experience">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		<div class="row justify-content-center">
+	<div class="col-md-6">
+		<div class="resume-wrap ftco-animate">
+			<span class="date">December, 2023 - March, 2024</span>
+			<h2>Web Developer Intern</h2>
+			<span class="position" style="font-size: 20px";>DadsinTown</span>
+			<p class="mt-4">
+				DadsinTown is a Digital Marketing Startup based in Mumbai, having more than 50+ clients and have successfully completed many projects.
+			</p>
+			<ul>
+				<li>Assisted in developing frontend UI components and backend services using HTML, CSS, JavaScript, and Python.</li>
+				<li>Applied object-oriented programming principles and integrated SQL & NoSQL databases for application scalability.</li>
+				<li>Conducted debugging and performance optimization, and supported deployment processes.</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<!--Education-->
+<div class="education-section">
+    
+    <div class="row justify-content-center mb-10">
+        <h1 class="big-4">Education</h1>
+        <div class="underline"></div>
+    </div>
+    <br>
+
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+                <span class="date">2021-2025</span>
+                <h2>Bachelor of Engineering (Information Technology)</h2>
+                <span class="position">Thakur College of Engineering & Technology</span>
+                <p class="mt-4">CGPA: 8.31/10</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+                <span class="date">2019-2021</span>
+                <h2>Junior College</h2>
+                <span class="position">Sathaye College of Science, Commerce & Arts</span>
+                <p class="mt-4">Score: 87.83%</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+
+<!-- Project Section-->
+<section id="project-section" class="ftco-section">
+  <div class="ftco-hireme img d-flex align-items-center">
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 ftco-animate text-center">
+          <h2 class="mb-4 project-heading" style="text-align: center;">
+            Projects on GitHub
+          </h2>
+
+          <p>
+            <a href="https://github.com/sandeshparab03/"
+            class="btn btn-outline-secondary py-3 px-5"
+            target="_blank"
+            rel="noopener noreferrer">
+            GitHub
+            </a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!---Contact Section-->
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Mumbai, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+91 9930872984</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:sandeshparab2026@gmail.com">sandeshparab2026@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/1ed5RN08CfrEP3UAIOLoYLumiNeNx4yBO/view?usp=sharing" target="blank_">Resume Link</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/sandesh-parab-a0a49a261/" target="blank_"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://twitter.com/sandeshparab_" target="blank_"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.facebook.com/sandesh.parab.512621/" target="blank_"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/sandeshparab_/" target="blank_"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ <!--Footer Section-->
+   <footer class="ftco-footer ftco-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 text-center">
+
+        <p class="footer-text">
+          © <span id="year"></span> Sandesh Parab. All Rights Reserved.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
